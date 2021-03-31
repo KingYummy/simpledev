@@ -1,6 +1,6 @@
 # CI/CD Pipeline Using Jenkins to Deploy Into a Docker Container 
 
-<img src="readmeImages/auto.PNG">
+<img src="readmeImages/SimpleDev.png">
 
 ## Technology
 
@@ -19,11 +19,9 @@
 
 ### Job 1
 
-<img src="readmeImages/SimpleDev.png">
+<img src="readmeImages/first_job.PNG">
 
  - A Jenkins Pull: The latest version of the code is pulled. This job is restricted to run only on the Staging server (One of the worker nodes in the Jenkins Master-Slave Architecture)
-
-<img src="readmeImages/first_job.PNG">
 
 The Postbuild-Action is set to "Trigger only if build is stable" The next job to build is then selected.
  
