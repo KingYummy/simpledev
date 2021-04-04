@@ -1,10 +1,13 @@
-# CI/CD Pipeline Using Jenkins to Deploy Into a Docker Container 
+# Automated CI/CD Pipeline Using Jenkins to Deploy a Web App into a Docker Container 
+## Description 
+
+An automated CI/CD Pipeline - Using Jenkins to pull updated code (Web App)  from the repository (Github), build an image using a Dockerfile (this includes all dependencies) with the wrapped code. Image is then run as a container.
 
 <img src="readmeImages/SimpleDev.png">
 
 ## Technology
 
--Git, Jenkins  and Docker
+-Git, Jenkins, Docker and Apache
 
 ## Requirements 
 
